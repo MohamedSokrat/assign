@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Qeueing system</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Queue sim</h1>
+    <form>
+     <p>Select your service?
+        <p>
+        <input id="mobile" type="text" placeholder="Mobile Number">
+        <select id="serviceQual">
+            <option disabled selected value="99999">-- Choose an Option --</option>
+                <option value="0">A</option>
+                <option value="0">B</option>
+                <option value="0">C</option>
+                <option value="0">B</option>
+                <option value="1">P</option>
+         </select> 
+         <select id="serviceCounter">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                    <option value="1">Counter 1</option>
+                    <option value="2">Counter 2</option>
+
+             </select>    
+    </form> 
+
+<button type="button" id="Book">Book in Service</button>
+<button type="button" id="C1pull">Counter 1 Pull From Q </button>
+<button type="button" id="C2pull">Counter 2 Pull From Q </button>
+<p id="pulling"></p>
+
+<div>
+     <button type="button" id="ShowR">Show Regular queue </button>
+     <button type="button" id="ShowP">Show Priorty queue </button>
+     <button type="button" id="Both">Show Both queues </button>
+        <p id="demo"></p>
+</div>
+<p id="Queue"></p>
+
+<p>
+<div>
+    <input id="mobileconfig" type="text" placeholder="Mobile Number">
+    <button type="button" id="add">Add number to Priorty list </button>
+    <button type="button" id="remove">remove number to Priorty list </button>
+    <button type="button" id="ShowPList">Show Priorty list </button>
+    <p id="result"></p>
+</div>
+       
+
+<script  src="app.js"></script>
+</body>
+</html> 

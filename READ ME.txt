@@ -1,0 +1,24 @@
+Welcome to the Queuing simulator assignment test,
+
+Sorry for the bad assets , i just pulled them out quickly, i dint want to submit a blank html and script file with no styling
+Bad styling better than no styling ?? idk
+
+All the required function have been implemented
+The index.html file runs normally on the browser, no setup is required.
+There are 3 different Queues, a Priority Q, 2 regular Qs for 2 separate counters, both counters serve the same Priority Q. they are implemented as (arrays)
+there is also a priority list which is an array
+no DB was used in this assignment
+
+To Book a service, u should enter ur mobile phone(any number is ok) , choose a service and counter from drop-down lists
+your mobile number will be added accordingly to a specific Q. only mobile numbers from the priority list with selected service as priority can be added to priority list
+
+Below u can view any Q at anytime, or all Queues if u wish.
+
+as requested Both Counter 1 and Counter 2 handle the priority service. Priority bookings should be served before other bookings, with a 2:1 ratio to avoid complete blocking of other customers in the other services. 
+
+The priority list is adjustable with add,remove, and show functionalities added.
+
+the initial priority list is as follows  ['11','22','33','44','55','66','77','88','99'].
+
+
+
